@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Soft Body Game</title>
+    <style>
+        body { margin: 0; overflow: hidden; font-family: Arial; }
+        #ui { position: absolute; top: 10px; left: 10px; color: white; }
+        #leaderboard { margin-top: 10px; }
+    </style>
+</head>
+<body>
+    <div id="ui">
+        Nickname: <span id="nickname">?</span><br>
+        Ping: <span id="ping">0</span> ms<br>
+        Mass: <span id="mass">0</span>
+        <div id="leaderboard"></div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/7.2.4/browser/pixi.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
